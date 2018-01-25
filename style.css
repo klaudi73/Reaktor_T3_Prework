@@ -1,0 +1,71 @@
+body {
+	background-color: navy;
+	background-image: url("ocean.jpg");
+	background-repeat: no-repeat;
+	background-position: initial;
+	background-size: cover;
+}
+H1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	background-color: navyblue;
+	color: lightgray;
+	text-align: center;
+}
+div {
+	line-height:10px;
+	background-color:navyblue;
+	}
+table {
+	width: 60%;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+th {
+    text-align: center;
+	font-size: xx-large;
+	/*border: 1px solid black;
+	border-collapse: collapse; */
+}
+td {
+    text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 33%;
+}
+
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	background-color: navyblue;
+	color: #FFFFCC;
+	text-align: justify;
+	margin: 8px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFAA;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+	
+
